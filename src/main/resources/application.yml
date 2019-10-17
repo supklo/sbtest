@@ -1,0 +1,14 @@
+server:
+  rest:
+    port: 8081
+  ws:
+    port: 8080
+  static:
+    port: 8082
+
+store:
+  path: ./store
+
+mongo:
+  uri: mongodb://localhost:27017
+  dbName: my_DB
